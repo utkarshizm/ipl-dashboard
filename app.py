@@ -198,7 +198,7 @@ with c4:
 
 # ── Row 3: Tabs for batsmen / bowlers ─────────────────────────────────────────
 st.markdown("---")
-tab1, tab2 = st.tabs(["🏏 Top Batsmen", "⚾ Top Bowlers"])
+tab1, tab2, tab3 = st.tabs(["🏏 Top Batsmen", "⚾ Top Bowlers", "⚔️ Head to Head"])
 
 with tab1:
     tb = (bat.groupby(["player","team"])
@@ -254,3 +254,169 @@ with tab2:
 
 st.markdown("---")
 st.caption("🏏 IPL Analytics Dashboard · Portfolio project · Synthetic data")
+
+with tab3:
+    all_teams_h2h = sorted(matches["team1"].unique())
+
+    hcol1, hcol2 = st.columns(2)
+    with hcol1:
+        team_a = st.selectbox("Team A", all_teams_h2h,
+                              index=all_teams_h2h.index("Mumbai Indians") if "Mumbai Indians" in all_teams_h2h else 0)
+    with hcol2:
+        default_b = "Chennai Super Kings" if "Chennai Super Kings" in all_teams_h2h else all_teams_h2h[1]
+        team_b = st.selectbox("Team B", [t for t in all_teams_h2h if t != team_a],
+                              index=[t for t in all_teams_h2h if t != team_a].index(default_b)
+                              if default_b in [t for t in all_teams_h2h if t != team_a] else 0)
+
+    # filter matches between these two teams only
+    h2h = matches[
+        ((matches["team1"] == team_a) & (matches["team2"] == team_b)) |
+        ((matches["team1"] == team_b) & (matches["team2"] == team_a))
+    ].copy()
+
+    if len(h2h) == 0:
+        st.info("No matches found between these two teams.")
+    else:
+        a_wins = int((h2h["winner"] == team_a).sum())
+        b_wins = int((h2h["winner"] == team_b).sum())
+        total  = len(h2h)
+        a_pct  = round(a_wins / total * 100, 1)
+        b_pct  = round(b_wins / total * 100, 1)
+
+        # ── KPIs ──────────────────────────────────────────────────────────────
+        st.markdown("<br>", unsafe_allow_html=True)
+        k1, k2, k3, k4, k5 = st.columns(5)
+        for col, val, lbl in zip(
+            [k1, k2, k3, k4, k5],
+            [total, a_wins, b_wins, f"{a_pct}%", f"{b_pct}%"],
+            ["Total Matches", f"{team_a.split()[0]} Wins", f"{team_b.split()[0]} Wins",
+             f"{team_a.split()[0]} Win %", f"{team_b.split()[0]} Win %"]
+        ):
+            col.markdown(
+                f'<div class="metric-card"><div class="metric-value">{val}</div>'
+                f'<div class="metric-label">{lbl}</div></div>',
+                unsafe_allow_html=True
+            )
+
+        st.markdown("<br>", unsafe_allow_html=True)
+
+        # ── Wins per season grouped bar ────────────────────────────────────────
+        season_wins = []
+        for season, grp in h2h.groupby("season"):
+            season_wins.append({
+                "season": season,
+                team_a: int((grp["winner"] == team_a).sum()),
+                team_b: int((grp["winner"] == team_b).sum()),
+            })
+        sw = pd.DataFrame(season_wins)
+
+        import plotly.graph_objects as go
+
+        fig_h1 = go.Figure()
+        fig_h1.add_trace(go.Bar(name=team_a, x=sw["season"], y=sw[team_a],
+                                marker_color="#3b82f6", text=sw[team_a], textposition="outside"))
+        fig_h1.add_trace(go.Bar(name=team_b, x=sw["season"], y=sw[team_b],
+                                marker_color="#f59e0b", text=sw[team_b], textposition="outside"))
+        fig_h1.update_layout(
+            barmode="group", title=f"{team_a.split()[0]} vs {team_b.split()[0]} — Wins per Season",
+            height=360, margin=dict(l=10,r=10,t=45,b=10),
+            plot_bgcolor="white", paper_bgcolor="white",
+            legend=dict(orientation="h", y=1.12),
+            xaxis=dict(tickmode="linear", gridcolor="#f0f0f0", title="Season"),
+            yaxis=dict(gridcolor="#f0f0f0", title="Wins", dtick=1),
+        )
+        st.plotly_chart(fig_h1, use_container_width=True)
+
+        # ── Overall win share donut + avg scores side by side ─────────────────
+        dc1, dc2 = st.columns(2)
+
+        with dc1:
+            st.markdown('<div class="section-title">🏆 Overall Win Share</div>', unsafe_allow_html=True)
+            fig_h2 = go.Figure(go.Pie(
+                labels=[team_a, team_b],
+                values=[a_wins, b_wins],
+                hole=0.55,
+                marker_colors=["#3b82f6","#f59e0b"],
+                textinfo="percent+label",
+                pull=[0.04, 0.04],
+            ))
+            fig_h2.update_layout(height=300, margin=dict(l=10,r=10,t=10,b=10),
+                                 paper_bgcolor="white",
+                                 legend=dict(orientation="h", y=-0.05))
+            st.plotly_chart(fig_h2, use_container_width=True)
+
+        with dc2:
+            st.markdown('<div class="section-title">📊 Avg Score When Batting First</div>', unsafe_allow_html=True)
+            a_bat_first = h2h[h2h["team1"] == team_a]["team1_score"].tolist() + \
+                          h2h[h2h["team2"] == team_a]["team2_score"].tolist()
+            b_bat_first = h2h[h2h["team1"] == team_b]["team1_score"].tolist() + \
+                          h2h[h2h["team2"] == team_b]["team2_score"].tolist()
+            avg_a = round(sum(a_bat_first)/len(a_bat_first), 1) if a_bat_first else 0
+            avg_b = round(sum(b_bat_first)/len(b_bat_first), 1) if b_bat_first else 0
+            fig_h3 = go.Figure(go.Bar(
+                x=[team_a.split()[0] + " " + team_a.split()[1],
+                   team_b.split()[0] + " " + team_b.split()[1]],
+                y=[avg_a, avg_b],
+                marker_color=["#3b82f6","#f59e0b"],
+                text=[avg_a, avg_b], textposition="outside",
+            ))
+            fig_h3.update_layout(height=300, margin=dict(l=10,r=10,t=10,b=10),
+                                 plot_bgcolor="white", paper_bgcolor="white",
+                                 yaxis=dict(gridcolor="#f0f0f0", range=[0, max(avg_a,avg_b)+20]),
+                                 xaxis=dict(gridcolor="#f0f0f0"))
+            st.plotly_chart(fig_h3, use_container_width=True)
+
+        # ── Win streak tracker ────────────────────────────────────────────────
+        st.markdown('<div class="section-title">📅 Match-by-Match Result Timeline</div>', unsafe_allow_html=True)
+        h2h_sorted = h2h.sort_values("season").reset_index(drop=True)
+        h2h_sorted["result"] = h2h_sorted["winner"].apply(
+            lambda w: 1 if w == team_a else -1
+        )
+        h2h_sorted["match_num"] = range(1, len(h2h_sorted)+1)
+        h2h_sorted["color"] = h2h_sorted["result"].apply(
+            lambda r: "#3b82f6" if r == 1 else "#f59e0b"
+        )
+        h2h_sorted["label"] = h2h_sorted["winner"].apply(
+            lambda w: f"{team_a.split()[0]} won" if w == team_a else f"{team_b.split()[0]} won"
+        )
+
+        fig_h4 = go.Figure()
+        fig_h4.add_trace(go.Bar(
+            x=h2h_sorted["match_num"],
+            y=h2h_sorted["result"],
+            marker_color=h2h_sorted["color"],
+            text=h2h_sorted["season"],
+            textposition="outside",
+            hovertext=h2h_sorted["label"],
+            hoverinfo="text",
+            name="Result"
+        ))
+        fig_h4.add_hline(y=0, line_dash="dot", line_color="gray", line_width=1)
+        fig_h4.update_layout(
+            height=280,
+            margin=dict(l=10,r=10,t=10,b=10),
+            plot_bgcolor="white", paper_bgcolor="white",
+            xaxis=dict(title="Match number", gridcolor="#f0f0f0"),
+            yaxis=dict(title="", tickvals=[-1,1],
+                       ticktext=[f"{team_b.split()[0]} won", f"{team_a.split()[0]} won"],
+                       gridcolor="#f0f0f0"),
+            showlegend=False,
+            annotations=[
+                dict(x=0.01, y=0.95, xref="paper", yref="paper",
+                     text=f"🔵 {team_a.split()[0]}", showarrow=False,
+                     font=dict(color="#3b82f6", size=12)),
+                dict(x=0.12, y=0.95, xref="paper", yref="paper",
+                     text=f"🟡 {team_b.split()[0]}", showarrow=False,
+                     font=dict(color="#f59e0b", size=12)),
+            ]
+        )
+        st.plotly_chart(fig_h4, use_container_width=True)
+
+        # ── Recent form table ──────────────────────────────────────────────────
+        st.markdown('<div class="section-title">🗂️ Recent Matches</div>', unsafe_allow_html=True)
+        recent = h2h_sorted.sort_values("season", ascending=False).head(10)[
+            ["season","venue","team1","team2","team1_score","team2_score","winner"]
+        ].rename(columns={"season":"Season","venue":"Venue","team1":"Team 1","team2":"Team 2",
+                          "team1_score":"Score 1","team2_score":"Score 2","winner":"Winner"})
+        st.dataframe(recent, use_container_width=True, hide_index=True)
+
