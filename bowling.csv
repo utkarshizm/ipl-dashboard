@@ -1,0 +1,161 @@
+season,player,team,matches,wickets,economy,average,best
+2008,Lasith Malinga,Mumbai Indians,15,9,7.01,21.7,4/36
+2008,Jasprit Bumrah,Mumbai Indians,10,21,8.07,31.9,3/21
+2008,Dwayne Bravo,Chennai Super Kings,16,26,9.26,30.6,3/19
+2008,Yuzvendra Chahal,Royal Challengers Bangalore,11,21,7.33,23.2,2/18
+2008,Rashid Khan,Sunrisers Hyderabad,16,20,8.02,18.3,5/12
+2008,Amit Mishra,Delhi Capitals,16,22,7.09,19.4,4/43
+2008,Ravindra Jadeja,Chennai Super Kings,15,25,8.56,29.8,2/28
+2008,Sunil Narine,Kolkata Knight Riders,15,26,8.02,30.7,3/37
+2008,Kagiso Rabada,Delhi Capitals,12,23,7.67,21.5,4/16
+2008,Bhuvneshwar Kumar,Sunrisers Hyderabad,14,18,6.77,26.5,5/17
+2009,Lasith Malinga,Mumbai Indians,11,19,8.57,22.5,3/29
+2009,Jasprit Bumrah,Mumbai Indians,14,10,8.52,20.3,5/43
+2009,Dwayne Bravo,Chennai Super Kings,14,15,8.48,29.1,5/32
+2009,Yuzvendra Chahal,Royal Challengers Bangalore,16,16,7.92,24.3,4/25
+2009,Rashid Khan,Sunrisers Hyderabad,16,24,7.58,24.2,4/42
+2009,Amit Mishra,Delhi Capitals,10,12,8.55,25.6,5/35
+2009,Ravindra Jadeja,Chennai Super Kings,13,15,8.48,31.9,5/20
+2009,Sunil Narine,Kolkata Knight Riders,14,25,9.35,24.2,4/39
+2009,Kagiso Rabada,Delhi Capitals,14,13,8.97,28.6,4/27
+2009,Bhuvneshwar Kumar,Sunrisers Hyderabad,13,23,9.13,22.7,2/27
+2010,Lasith Malinga,Mumbai Indians,10,12,9.2,29.6,5/29
+2010,Jasprit Bumrah,Mumbai Indians,10,8,7.56,27.2,2/32
+2010,Dwayne Bravo,Chennai Super Kings,10,26,7.03,24.1,5/28
+2010,Yuzvendra Chahal,Royal Challengers Bangalore,15,14,6.74,23.3,3/43
+2010,Rashid Khan,Sunrisers Hyderabad,10,25,6.89,31.4,3/40
+2010,Amit Mishra,Delhi Capitals,15,20,9.79,25.3,4/24
+2010,Ravindra Jadeja,Chennai Super Kings,14,23,7.33,22.8,4/43
+2010,Sunil Narine,Kolkata Knight Riders,13,21,7.98,27.1,5/15
+2010,Kagiso Rabada,Delhi Capitals,13,8,7.75,30.5,3/26
+2010,Bhuvneshwar Kumar,Sunrisers Hyderabad,13,20,8.07,20.3,2/44
+2011,Lasith Malinga,Mumbai Indians,13,22,6.96,28.9,4/44
+2011,Jasprit Bumrah,Mumbai Indians,11,16,9.34,27.8,5/39
+2011,Dwayne Bravo,Chennai Super Kings,13,11,6.8,24.6,2/18
+2011,Yuzvendra Chahal,Royal Challengers Bangalore,15,8,9.51,23.7,3/40
+2011,Rashid Khan,Sunrisers Hyderabad,15,22,7.51,27.3,4/28
+2011,Amit Mishra,Delhi Capitals,12,16,7.65,23.5,5/33
+2011,Ravindra Jadeja,Chennai Super Kings,13,11,9.51,31.1,4/13
+2011,Sunil Narine,Kolkata Knight Riders,15,14,6.86,26.0,5/24
+2011,Kagiso Rabada,Delhi Capitals,16,24,9.27,25.4,5/21
+2011,Bhuvneshwar Kumar,Sunrisers Hyderabad,11,21,8.54,23.7,5/14
+2012,Lasith Malinga,Mumbai Indians,11,27,9.67,24.2,4/40
+2012,Jasprit Bumrah,Mumbai Indians,10,11,7.38,26.0,2/10
+2012,Dwayne Bravo,Chennai Super Kings,10,23,8.24,22.1,3/21
+2012,Yuzvendra Chahal,Royal Challengers Bangalore,12,25,9.75,23.5,4/19
+2012,Rashid Khan,Sunrisers Hyderabad,16,14,8.14,26.4,5/24
+2012,Amit Mishra,Delhi Capitals,11,21,8.05,18.7,2/23
+2012,Ravindra Jadeja,Chennai Super Kings,11,23,8.44,19.9,5/19
+2012,Sunil Narine,Kolkata Knight Riders,15,16,7.86,24.5,2/36
+2012,Kagiso Rabada,Delhi Capitals,14,24,7.1,18.2,4/37
+2012,Bhuvneshwar Kumar,Sunrisers Hyderabad,12,27,8.37,31.3,3/34
+2013,Lasith Malinga,Mumbai Indians,10,20,7.32,28.2,2/31
+2013,Jasprit Bumrah,Mumbai Indians,11,15,6.73,29.2,5/11
+2013,Dwayne Bravo,Chennai Super Kings,11,21,9.18,30.3,5/21
+2013,Yuzvendra Chahal,Royal Challengers Bangalore,13,21,7.72,20.6,3/12
+2013,Rashid Khan,Sunrisers Hyderabad,10,24,9.74,19.3,2/28
+2013,Amit Mishra,Delhi Capitals,16,21,8.28,27.3,5/36
+2013,Ravindra Jadeja,Chennai Super Kings,10,13,6.95,30.6,5/23
+2013,Sunil Narine,Kolkata Knight Riders,15,21,9.64,26.1,4/41
+2013,Kagiso Rabada,Delhi Capitals,11,21,7.59,19.3,5/19
+2013,Bhuvneshwar Kumar,Sunrisers Hyderabad,11,9,7.05,28.2,2/42
+2014,Lasith Malinga,Mumbai Indians,13,14,7.7,29.9,5/32
+2014,Jasprit Bumrah,Mumbai Indians,12,25,7.7,20.9,5/33
+2014,Dwayne Bravo,Chennai Super Kings,12,27,7.24,20.7,3/36
+2014,Yuzvendra Chahal,Royal Challengers Bangalore,13,8,7.26,25.4,2/28
+2014,Rashid Khan,Sunrisers Hyderabad,15,19,9.25,20.4,2/31
+2014,Amit Mishra,Delhi Capitals,11,17,8.34,27.1,2/26
+2014,Ravindra Jadeja,Chennai Super Kings,15,21,8.15,18.6,3/30
+2014,Sunil Narine,Kolkata Knight Riders,14,16,8.83,21.2,4/16
+2014,Kagiso Rabada,Delhi Capitals,10,8,6.89,31.3,3/41
+2014,Bhuvneshwar Kumar,Sunrisers Hyderabad,10,23,8.8,24.1,5/44
+2015,Lasith Malinga,Mumbai Indians,15,23,6.52,22.2,5/29
+2015,Jasprit Bumrah,Mumbai Indians,14,19,7.17,31.4,5/38
+2015,Dwayne Bravo,Chennai Super Kings,12,16,8.83,28.1,3/18
+2015,Yuzvendra Chahal,Royal Challengers Bangalore,13,17,7.64,29.0,2/14
+2015,Rashid Khan,Sunrisers Hyderabad,12,8,7.07,22.8,3/14
+2015,Amit Mishra,Delhi Capitals,10,13,8.23,31.3,4/43
+2015,Ravindra Jadeja,Chennai Super Kings,16,19,7.05,22.2,4/11
+2015,Sunil Narine,Kolkata Knight Riders,13,12,7.56,23.0,4/31
+2015,Kagiso Rabada,Delhi Capitals,14,18,8.6,20.2,2/17
+2015,Bhuvneshwar Kumar,Sunrisers Hyderabad,13,17,8.13,18.8,5/29
+2016,Lasith Malinga,Mumbai Indians,11,16,8.8,25.1,5/28
+2016,Jasprit Bumrah,Mumbai Indians,15,22,7.7,21.6,3/25
+2016,Dwayne Bravo,Chennai Super Kings,15,16,8.4,30.5,2/24
+2016,Yuzvendra Chahal,Royal Challengers Bangalore,13,15,9.32,24.6,3/14
+2016,Rashid Khan,Sunrisers Hyderabad,15,27,6.94,27.5,3/11
+2016,Amit Mishra,Delhi Capitals,16,21,8.85,24.9,3/14
+2016,Ravindra Jadeja,Chennai Super Kings,12,15,7.98,22.0,2/41
+2016,Sunil Narine,Kolkata Knight Riders,13,22,8.34,23.8,5/26
+2016,Kagiso Rabada,Delhi Capitals,13,24,7.93,29.4,3/27
+2016,Bhuvneshwar Kumar,Sunrisers Hyderabad,14,21,9.29,24.6,3/25
+2017,Lasith Malinga,Mumbai Indians,16,24,9.77,28.4,2/30
+2017,Jasprit Bumrah,Mumbai Indians,12,26,9.25,23.7,3/13
+2017,Dwayne Bravo,Chennai Super Kings,14,26,7.94,25.8,3/25
+2017,Yuzvendra Chahal,Royal Challengers Bangalore,13,10,8.79,18.8,5/42
+2017,Rashid Khan,Sunrisers Hyderabad,11,20,6.76,30.0,3/43
+2017,Amit Mishra,Delhi Capitals,15,26,7.69,26.6,2/19
+2017,Ravindra Jadeja,Chennai Super Kings,11,26,9.65,29.2,4/32
+2017,Sunil Narine,Kolkata Knight Riders,13,27,8.13,22.2,2/32
+2017,Kagiso Rabada,Delhi Capitals,14,12,7.01,20.5,2/23
+2017,Bhuvneshwar Kumar,Sunrisers Hyderabad,13,15,7.47,21.6,4/27
+2018,Lasith Malinga,Mumbai Indians,11,14,6.77,27.0,4/25
+2018,Jasprit Bumrah,Mumbai Indians,11,25,6.53,24.7,5/44
+2018,Dwayne Bravo,Chennai Super Kings,16,17,9.16,21.2,5/29
+2018,Yuzvendra Chahal,Royal Challengers Bangalore,16,10,7.19,28.9,5/38
+2018,Rashid Khan,Sunrisers Hyderabad,16,9,9.48,20.8,3/41
+2018,Amit Mishra,Delhi Capitals,14,17,7.3,22.5,4/20
+2018,Ravindra Jadeja,Chennai Super Kings,10,9,8.74,18.8,4/24
+2018,Sunil Narine,Kolkata Knight Riders,12,18,7.66,21.6,5/34
+2018,Kagiso Rabada,Delhi Capitals,13,18,9.62,31.0,2/19
+2018,Bhuvneshwar Kumar,Sunrisers Hyderabad,11,21,9.24,27.3,2/14
+2019,Lasith Malinga,Mumbai Indians,13,9,7.67,30.5,5/41
+2019,Jasprit Bumrah,Mumbai Indians,11,25,8.4,27.2,3/31
+2019,Dwayne Bravo,Chennai Super Kings,16,24,9.62,21.5,5/41
+2019,Yuzvendra Chahal,Royal Challengers Bangalore,11,21,9.42,22.4,3/15
+2019,Rashid Khan,Sunrisers Hyderabad,15,16,8.35,22.2,3/39
+2019,Amit Mishra,Delhi Capitals,16,15,9.49,19.8,3/34
+2019,Ravindra Jadeja,Chennai Super Kings,14,13,8.68,26.6,2/24
+2019,Sunil Narine,Kolkata Knight Riders,13,16,9.26,28.6,4/24
+2019,Kagiso Rabada,Delhi Capitals,14,26,9.44,26.2,2/37
+2019,Bhuvneshwar Kumar,Sunrisers Hyderabad,10,17,8.17,21.1,4/24
+2020,Lasith Malinga,Mumbai Indians,11,18,9.37,27.5,3/34
+2020,Jasprit Bumrah,Mumbai Indians,12,27,7.29,30.3,2/24
+2020,Dwayne Bravo,Chennai Super Kings,16,17,9.34,25.3,2/41
+2020,Yuzvendra Chahal,Royal Challengers Bangalore,11,20,9.64,27.8,4/13
+2020,Rashid Khan,Sunrisers Hyderabad,13,24,8.1,24.4,3/13
+2020,Amit Mishra,Delhi Capitals,10,22,8.05,29.6,4/10
+2020,Ravindra Jadeja,Chennai Super Kings,16,26,7.87,28.2,3/22
+2020,Sunil Narine,Kolkata Knight Riders,13,21,8.51,21.6,5/36
+2020,Kagiso Rabada,Delhi Capitals,15,17,8.8,30.9,5/43
+2020,Bhuvneshwar Kumar,Sunrisers Hyderabad,16,16,7.53,24.9,3/24
+2021,Lasith Malinga,Mumbai Indians,10,25,8.97,25.6,2/27
+2021,Jasprit Bumrah,Mumbai Indians,16,17,7.98,23.9,5/14
+2021,Dwayne Bravo,Chennai Super Kings,11,24,8.99,19.2,3/31
+2021,Yuzvendra Chahal,Royal Challengers Bangalore,16,12,8.65,21.1,2/30
+2021,Rashid Khan,Sunrisers Hyderabad,16,13,7.24,25.7,2/13
+2021,Amit Mishra,Delhi Capitals,13,26,9.68,24.2,4/29
+2021,Ravindra Jadeja,Chennai Super Kings,11,11,8.31,28.4,2/36
+2021,Sunil Narine,Kolkata Knight Riders,16,19,7.01,24.2,5/18
+2021,Kagiso Rabada,Delhi Capitals,14,11,8.05,28.8,4/37
+2021,Bhuvneshwar Kumar,Sunrisers Hyderabad,16,15,8.77,28.4,5/23
+2022,Lasith Malinga,Mumbai Indians,15,22,8.05,22.4,5/17
+2022,Jasprit Bumrah,Mumbai Indians,14,26,9.76,21.8,5/33
+2022,Dwayne Bravo,Chennai Super Kings,15,13,7.55,23.7,4/12
+2022,Yuzvendra Chahal,Royal Challengers Bangalore,13,17,9.46,25.3,4/19
+2022,Rashid Khan,Sunrisers Hyderabad,10,11,9.65,23.9,5/22
+2022,Amit Mishra,Delhi Capitals,13,23,8.99,24.2,5/30
+2022,Ravindra Jadeja,Chennai Super Kings,16,19,7.72,26.9,2/15
+2022,Sunil Narine,Kolkata Knight Riders,10,8,9.48,25.1,2/31
+2022,Kagiso Rabada,Delhi Capitals,11,18,7.57,27.5,3/29
+2022,Bhuvneshwar Kumar,Sunrisers Hyderabad,14,9,7.34,27.2,5/19
+2023,Lasith Malinga,Mumbai Indians,16,13,9.61,21.0,5/23
+2023,Jasprit Bumrah,Mumbai Indians,14,24,8.05,22.9,3/40
+2023,Dwayne Bravo,Chennai Super Kings,16,16,6.57,26.5,5/28
+2023,Yuzvendra Chahal,Royal Challengers Bangalore,16,12,9.61,20.5,2/13
+2023,Rashid Khan,Sunrisers Hyderabad,10,11,7.33,22.5,5/12
+2023,Amit Mishra,Delhi Capitals,11,15,7.66,26.1,2/30
+2023,Ravindra Jadeja,Chennai Super Kings,12,23,8.57,23.8,2/33
+2023,Sunil Narine,Kolkata Knight Riders,16,19,8.79,31.2,5/40
+2023,Kagiso Rabada,Delhi Capitals,12,23,8.62,18.4,4/40
+2023,Bhuvneshwar Kumar,Sunrisers Hyderabad,10,11,9.13,26.2,5/33

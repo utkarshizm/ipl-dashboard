@@ -1,0 +1,193 @@
+season,player,team,innings,runs,average,strike_rate,fours,sixes,fifties,hundreds
+2008,Virat Kohli,Royal Challengers Bangalore,17,730,42.9,160.9,41,26,5,1
+2008,Rohit Sharma,Mumbai Indians,15,441,29.4,153.7,36,23,2,0
+2008,MS Dhoni,Chennai Super Kings,10,275,27.5,159.9,42,27,1,0
+2008,AB de Villiers,Royal Challengers Bangalore,10,330,33.0,134.8,49,19,5,0
+2008,David Warner,Sunrisers Hyderabad,17,258,15.2,137.6,42,48,3,0
+2008,Shikhar Dhawan,Delhi Capitals,15,292,19.5,123.8,57,22,4,0
+2008,KL Rahul,Punjab Kings,13,386,29.7,183.0,77,42,3,0
+2008,Suresh Raina,Chennai Super Kings,12,526,43.8,166.8,38,48,3,0
+2008,Hardik Pandya,Mumbai Indians,14,324,23.1,144.8,73,27,4,0
+2008,Andre Russell,Kolkata Knight Riders,16,226,14.1,148.3,51,35,2,0
+2008,Jos Buttler,Rajasthan Royals,13,670,51.5,181.7,71,29,2,0
+2008,Shubman Gill,Kolkata Knight Riders,14,656,46.9,178.5,44,29,1,0
+2009,Virat Kohli,Royal Challengers Bangalore,16,559,34.9,172.7,55,42,2,0
+2009,Rohit Sharma,Mumbai Indians,11,202,18.4,182.9,30,24,2,0
+2009,MS Dhoni,Chennai Super Kings,10,394,39.4,144.0,47,26,2,0
+2009,AB de Villiers,Royal Challengers Bangalore,12,325,27.1,135.0,50,25,3,0
+2009,David Warner,Sunrisers Hyderabad,10,291,29.1,157.3,33,31,5,0
+2009,Shikhar Dhawan,Delhi Capitals,11,396,36.0,152.3,35,27,1,0
+2009,KL Rahul,Punjab Kings,15,287,19.1,156.3,39,22,4,0
+2009,Suresh Raina,Chennai Super Kings,10,168,16.8,158.0,53,43,5,0
+2009,Hardik Pandya,Mumbai Indians,10,535,53.5,156.0,68,17,1,0
+2009,Andre Russell,Kolkata Knight Riders,14,521,37.2,137.0,57,36,1,0
+2009,Jos Buttler,Rajasthan Royals,11,495,45.0,190.3,53,48,4,0
+2009,Shubman Gill,Kolkata Knight Riders,14,565,40.4,139.5,77,22,5,0
+2010,Virat Kohli,Royal Challengers Bangalore,12,664,55.3,150.9,46,13,5,0
+2010,Rohit Sharma,Mumbai Indians,17,470,27.6,130.2,66,11,2,0
+2010,MS Dhoni,Chennai Super Kings,12,377,31.4,179.7,67,22,2,0
+2010,AB de Villiers,Royal Challengers Bangalore,12,498,41.5,179.8,64,33,1,0
+2010,David Warner,Sunrisers Hyderabad,17,274,16.1,147.0,50,44,1,0
+2010,Shikhar Dhawan,Delhi Capitals,14,349,24.9,163.4,66,32,1,0
+2010,KL Rahul,Punjab Kings,17,414,24.4,171.8,53,35,2,0
+2010,Suresh Raina,Chennai Super Kings,14,530,37.9,133.1,32,11,5,0
+2010,Hardik Pandya,Mumbai Indians,10,265,26.5,121.0,51,23,2,0
+2010,Andre Russell,Kolkata Knight Riders,14,260,18.6,149.7,62,31,5,0
+2010,Jos Buttler,Rajasthan Royals,12,753,62.8,147.9,55,31,5,1
+2010,Shubman Gill,Kolkata Knight Riders,13,344,26.5,162.7,76,39,3,0
+2011,Virat Kohli,Royal Challengers Bangalore,16,55,3.4,173.6,33,23,4,0
+2011,Rohit Sharma,Mumbai Indians,13,370,28.5,160.7,55,35,2,0
+2011,MS Dhoni,Chennai Super Kings,17,262,15.4,182.3,78,44,3,0
+2011,AB de Villiers,Royal Challengers Bangalore,14,148,10.6,142.6,43,30,2,0
+2011,David Warner,Sunrisers Hyderabad,12,429,35.8,126.8,30,49,1,0
+2011,Shikhar Dhawan,Delhi Capitals,16,588,36.8,134.6,40,36,5,0
+2011,KL Rahul,Punjab Kings,15,50,3.3,160.7,47,31,1,0
+2011,Suresh Raina,Chennai Super Kings,10,297,29.7,137.8,69,22,2,0
+2011,Hardik Pandya,Mumbai Indians,14,455,32.5,179.1,74,38,2,0
+2011,Andre Russell,Kolkata Knight Riders,11,302,27.5,178.0,37,14,2,0
+2011,Jos Buttler,Rajasthan Royals,13,330,25.4,132.3,65,21,3,0
+2011,Shubman Gill,Kolkata Knight Riders,12,517,43.1,182.8,66,15,3,0
+2012,Virat Kohli,Royal Challengers Bangalore,11,434,39.5,165.9,32,17,4,0
+2012,Rohit Sharma,Mumbai Indians,13,739,56.8,183.6,54,25,2,1
+2012,MS Dhoni,Chennai Super Kings,17,301,17.7,120.8,36,21,5,0
+2012,AB de Villiers,Royal Challengers Bangalore,11,599,54.5,126.2,64,12,4,0
+2012,David Warner,Sunrisers Hyderabad,15,256,17.1,194.4,45,18,1,0
+2012,Shikhar Dhawan,Delhi Capitals,14,273,19.5,189.2,38,21,1,0
+2012,KL Rahul,Punjab Kings,16,375,23.4,166.8,35,29,3,0
+2012,Suresh Raina,Chennai Super Kings,17,479,28.2,177.0,72,43,1,0
+2012,Hardik Pandya,Mumbai Indians,14,665,47.5,153.8,69,23,4,0
+2012,Andre Russell,Kolkata Knight Riders,14,354,25.3,149.6,65,26,5,0
+2012,Jos Buttler,Rajasthan Royals,13,405,31.2,122.0,79,29,1,0
+2012,Shubman Gill,Kolkata Knight Riders,13,322,24.8,167.8,37,41,1,0
+2013,Virat Kohli,Royal Challengers Bangalore,10,435,43.5,163.0,61,18,4,0
+2013,Rohit Sharma,Mumbai Indians,15,394,26.3,184.9,34,44,4,0
+2013,MS Dhoni,Chennai Super Kings,10,306,30.6,128.1,43,34,4,0
+2013,AB de Villiers,Royal Challengers Bangalore,10,527,52.7,178.8,36,22,4,0
+2013,David Warner,Sunrisers Hyderabad,11,239,21.7,181.8,37,41,3,0
+2013,Shikhar Dhawan,Delhi Capitals,17,435,25.6,191.7,52,16,4,0
+2013,KL Rahul,Punjab Kings,10,50,5.0,145.2,61,38,2,0
+2013,Suresh Raina,Chennai Super Kings,14,306,21.9,170.2,45,28,5,0
+2013,Hardik Pandya,Mumbai Indians,13,454,34.9,148.6,30,11,4,0
+2013,Andre Russell,Kolkata Knight Riders,10,596,59.6,164.5,51,45,5,0
+2013,Jos Buttler,Rajasthan Royals,10,315,31.5,127.1,45,24,2,0
+2013,Shubman Gill,Kolkata Knight Riders,15,634,42.3,140.6,41,10,5,0
+2014,Virat Kohli,Royal Challengers Bangalore,10,458,45.8,118.5,57,16,1,0
+2014,Rohit Sharma,Mumbai Indians,15,289,19.3,158.6,41,16,5,0
+2014,MS Dhoni,Chennai Super Kings,15,50,3.3,129.9,66,46,1,0
+2014,AB de Villiers,Royal Challengers Bangalore,10,381,38.1,161.1,35,35,1,0
+2014,David Warner,Sunrisers Hyderabad,14,178,12.7,188.1,69,37,2,0
+2014,Shikhar Dhawan,Delhi Capitals,11,362,32.9,172.8,67,41,2,0
+2014,KL Rahul,Punjab Kings,13,675,51.9,160.7,46,49,2,0
+2014,Suresh Raina,Chennai Super Kings,15,271,18.1,146.1,34,49,3,0
+2014,Hardik Pandya,Mumbai Indians,17,166,9.8,131.9,77,32,5,0
+2014,Andre Russell,Kolkata Knight Riders,13,270,20.8,124.5,47,36,4,0
+2014,Jos Buttler,Rajasthan Royals,11,331,30.1,173.3,38,35,4,0
+2014,Shubman Gill,Kolkata Knight Riders,10,471,47.1,121.2,65,18,3,0
+2015,Virat Kohli,Royal Challengers Bangalore,13,567,43.6,148.1,45,29,1,0
+2015,Rohit Sharma,Mumbai Indians,17,440,25.9,125.5,48,39,1,0
+2015,MS Dhoni,Chennai Super Kings,11,117,10.6,185.0,69,42,5,0
+2015,AB de Villiers,Royal Challengers Bangalore,10,330,33.0,159.0,64,25,4,0
+2015,David Warner,Sunrisers Hyderabad,11,380,34.5,118.2,52,24,2,0
+2015,Shikhar Dhawan,Delhi Capitals,15,362,24.1,165.7,45,48,5,0
+2015,KL Rahul,Punjab Kings,15,239,15.9,143.5,63,37,2,0
+2015,Suresh Raina,Chennai Super Kings,11,266,24.2,161.8,59,35,3,0
+2015,Hardik Pandya,Mumbai Indians,16,627,39.2,152.1,40,19,5,0
+2015,Andre Russell,Kolkata Knight Riders,16,317,19.8,169.4,48,27,1,0
+2015,Jos Buttler,Rajasthan Royals,12,935,77.9,155.9,57,48,2,1
+2015,Shubman Gill,Kolkata Knight Riders,14,257,18.4,141.4,79,20,2,0
+2016,Virat Kohli,Royal Challengers Bangalore,12,537,44.8,154.2,63,31,3,0
+2016,Rohit Sharma,Mumbai Indians,13,505,38.8,162.6,68,37,1,0
+2016,MS Dhoni,Chennai Super Kings,12,180,15.0,154.9,76,48,1,0
+2016,AB de Villiers,Royal Challengers Bangalore,12,512,42.7,143.0,71,38,4,0
+2016,David Warner,Sunrisers Hyderabad,10,396,39.6,134.7,61,45,2,0
+2016,Shikhar Dhawan,Delhi Capitals,14,523,37.4,188.4,56,28,1,0
+2016,KL Rahul,Punjab Kings,15,645,43.0,176.5,40,31,4,0
+2016,Suresh Raina,Chennai Super Kings,10,543,54.3,189.4,63,20,3,0
+2016,Hardik Pandya,Mumbai Indians,17,370,21.8,131.6,37,48,4,0
+2016,Andre Russell,Kolkata Knight Riders,17,337,19.8,118.9,45,22,4,0
+2016,Jos Buttler,Rajasthan Royals,12,302,25.2,156.9,56,11,5,0
+2016,Shubman Gill,Kolkata Knight Riders,17,267,15.7,168.8,57,28,3,0
+2017,Virat Kohli,Royal Challengers Bangalore,14,514,36.7,125.7,46,10,3,0
+2017,Rohit Sharma,Mumbai Indians,15,105,7.0,161.0,37,17,5,0
+2017,MS Dhoni,Chennai Super Kings,12,429,35.8,186.7,42,29,3,0
+2017,AB de Villiers,Royal Challengers Bangalore,14,387,27.6,153.9,49,33,4,0
+2017,David Warner,Sunrisers Hyderabad,11,228,20.7,181.2,48,26,5,0
+2017,Shikhar Dhawan,Delhi Capitals,10,322,32.2,174.0,79,17,3,0
+2017,KL Rahul,Punjab Kings,16,134,8.4,185.6,49,11,3,0
+2017,Suresh Raina,Chennai Super Kings,16,367,22.9,181.0,74,46,2,0
+2017,Hardik Pandya,Mumbai Indians,15,374,24.9,127.9,68,45,2,0
+2017,Andre Russell,Kolkata Knight Riders,12,304,25.3,162.5,76,42,2,0
+2017,Jos Buttler,Rajasthan Royals,11,589,53.5,150.0,35,23,1,0
+2017,Shubman Gill,Kolkata Knight Riders,11,558,50.7,122.9,46,25,4,0
+2018,Virat Kohli,Royal Challengers Bangalore,17,605,35.6,181.7,62,19,1,0
+2018,Rohit Sharma,Mumbai Indians,10,351,35.1,136.6,46,27,4,0
+2018,MS Dhoni,Chennai Super Kings,16,453,28.3,144.0,49,31,4,0
+2018,AB de Villiers,Royal Challengers Bangalore,16,428,26.8,157.4,32,43,1,0
+2018,David Warner,Sunrisers Hyderabad,15,406,27.1,125.3,68,27,3,0
+2018,Shikhar Dhawan,Delhi Capitals,17,760,44.7,191.8,57,36,2,1
+2018,KL Rahul,Punjab Kings,10,614,61.4,119.2,76,22,2,0
+2018,Suresh Raina,Chennai Super Kings,15,667,44.5,119.2,70,37,2,0
+2018,Hardik Pandya,Mumbai Indians,17,393,23.1,127.5,73,13,1,0
+2018,Andre Russell,Kolkata Knight Riders,15,249,16.6,181.7,75,40,2,0
+2018,Jos Buttler,Rajasthan Royals,14,563,40.2,148.6,58,29,4,0
+2018,Shubman Gill,Kolkata Knight Riders,11,409,37.2,158.0,54,13,5,0
+2019,Virat Kohli,Royal Challengers Bangalore,11,403,36.6,156.1,53,17,4,0
+2019,Rohit Sharma,Mumbai Indians,14,182,13.0,137.8,45,44,1,0
+2019,MS Dhoni,Chennai Super Kings,10,455,45.5,165.4,41,28,3,0
+2019,AB de Villiers,Royal Challengers Bangalore,17,642,37.8,127.7,44,10,2,0
+2019,David Warner,Sunrisers Hyderabad,17,400,23.5,119.6,38,18,5,0
+2019,Shikhar Dhawan,Delhi Capitals,15,611,40.7,150.7,44,16,2,0
+2019,KL Rahul,Punjab Kings,12,674,56.2,170.3,68,19,4,0
+2019,Suresh Raina,Chennai Super Kings,10,561,56.1,146.9,69,48,4,0
+2019,Hardik Pandya,Mumbai Indians,12,383,31.9,166.5,77,10,4,0
+2019,Andre Russell,Kolkata Knight Riders,11,387,35.2,186.4,77,30,3,0
+2019,Jos Buttler,Rajasthan Royals,13,591,45.5,133.5,79,44,4,0
+2019,Shubman Gill,Kolkata Knight Riders,12,562,46.8,142.8,34,17,3,0
+2020,Virat Kohli,Royal Challengers Bangalore,17,460,27.1,143.5,37,16,2,0
+2020,Rohit Sharma,Mumbai Indians,15,431,28.7,187.8,52,38,5,0
+2020,MS Dhoni,Chennai Super Kings,14,513,36.6,140.5,71,12,5,0
+2020,AB de Villiers,Royal Challengers Bangalore,17,268,15.8,185.4,37,31,5,0
+2020,David Warner,Sunrisers Hyderabad,14,785,56.1,164.8,30,29,4,1
+2020,Shikhar Dhawan,Delhi Capitals,14,362,25.9,143.5,56,44,4,0
+2020,KL Rahul,Punjab Kings,14,376,26.9,150.3,54,36,4,0
+2020,Suresh Raina,Chennai Super Kings,11,302,27.5,134.5,73,45,3,0
+2020,Hardik Pandya,Mumbai Indians,15,222,14.8,175.8,56,22,1,0
+2020,Andre Russell,Kolkata Knight Riders,17,425,25.0,189.7,50,42,5,0
+2020,Jos Buttler,Rajasthan Royals,13,538,41.4,118.9,59,31,3,0
+2020,Shubman Gill,Kolkata Knight Riders,16,393,24.6,124.5,65,22,1,0
+2021,Virat Kohli,Royal Challengers Bangalore,14,413,29.5,148.6,41,39,4,0
+2021,Rohit Sharma,Mumbai Indians,12,314,26.2,151.3,34,14,1,0
+2021,MS Dhoni,Chennai Super Kings,12,437,36.4,121.7,50,10,4,0
+2021,AB de Villiers,Royal Challengers Bangalore,17,326,19.2,149.5,44,26,2,0
+2021,David Warner,Sunrisers Hyderabad,13,274,21.1,191.6,43,32,3,0
+2021,Shikhar Dhawan,Delhi Capitals,16,512,32.0,118.6,42,21,2,0
+2021,KL Rahul,Punjab Kings,14,343,24.5,183.1,61,20,3,0
+2021,Suresh Raina,Chennai Super Kings,15,396,26.4,194.8,31,23,1,0
+2021,Hardik Pandya,Mumbai Indians,11,233,21.2,140.9,78,30,1,0
+2021,Andre Russell,Kolkata Knight Riders,14,747,53.4,172.6,72,33,2,1
+2021,Jos Buttler,Rajasthan Royals,17,551,32.4,132.7,78,23,1,0
+2021,Shubman Gill,Kolkata Knight Riders,15,243,16.2,133.4,68,35,2,0
+2022,Virat Kohli,Royal Challengers Bangalore,10,410,41.0,185.2,59,22,2,0
+2022,Rohit Sharma,Mumbai Indians,12,135,11.2,130.8,76,34,2,0
+2022,MS Dhoni,Chennai Super Kings,15,93,6.2,184.1,67,39,1,0
+2022,AB de Villiers,Royal Challengers Bangalore,15,239,15.9,153.1,65,43,2,0
+2022,David Warner,Sunrisers Hyderabad,17,101,5.9,162.5,49,23,1,0
+2022,Shikhar Dhawan,Delhi Capitals,13,958,73.7,142.4,34,47,2,1
+2022,KL Rahul,Punjab Kings,17,467,27.5,185.8,48,48,3,0
+2022,Suresh Raina,Chennai Super Kings,17,278,16.4,147.5,43,47,2,0
+2022,Hardik Pandya,Mumbai Indians,10,185,18.5,180.2,50,37,1,0
+2022,Andre Russell,Kolkata Knight Riders,15,197,13.1,156.7,44,12,3,0
+2022,Jos Buttler,Rajasthan Royals,16,328,20.5,136.7,41,11,1,0
+2022,Shubman Gill,Kolkata Knight Riders,12,447,37.2,172.5,77,31,1,0
+2023,Virat Kohli,Royal Challengers Bangalore,12,407,33.9,128.0,50,30,4,0
+2023,Rohit Sharma,Mumbai Indians,13,436,33.5,186.8,34,48,1,0
+2023,MS Dhoni,Chennai Super Kings,14,535,38.2,121.9,39,33,1,0
+2023,AB de Villiers,Royal Challengers Bangalore,15,793,52.9,139.5,78,43,3,1
+2023,David Warner,Sunrisers Hyderabad,16,469,29.3,121.2,69,48,4,0
+2023,Shikhar Dhawan,Delhi Capitals,14,651,46.5,136.3,33,33,4,0
+2023,KL Rahul,Punjab Kings,13,50,3.8,130.1,65,36,3,0
+2023,Suresh Raina,Chennai Super Kings,16,594,37.1,152.5,65,19,5,0
+2023,Hardik Pandya,Mumbai Indians,10,245,24.5,175.5,68,13,5,0
+2023,Andre Russell,Kolkata Knight Riders,13,184,14.2,129.8,74,25,1,0
+2023,Jos Buttler,Rajasthan Royals,15,581,38.7,146.0,53,48,2,0
+2023,Shubman Gill,Kolkata Knight Riders,12,408,34.0,129.1,45,47,3,0
