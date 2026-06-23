@@ -1,6 +1,69 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import numpy as np
+import os
+
+# ── Auto-generate data if CSVs don't exist (needed for Streamlit Cloud) ───────
+def generate_data():
+    np.random.seed(42)
+    TEAMS = ["Mumbai Indians","Chennai Super Kings","Royal Challengers Bangalore",
+             "Kolkata Knight Riders","Delhi Capitals","Sunrisers Hyderabad",
+             "Rajasthan Royals","Punjab Kings"]
+    VENUES = ["Wankhede Stadium","MA Chidambaram Stadium","Eden Gardens",
+              "M. Chinnaswamy Stadium","Arun Jaitley Stadium","Rajiv Gandhi Intl Stadium",
+              "Sawai Mansingh Stadium","PCA Stadium Mohali"]
+    BATSMEN = [("Virat Kohli","Royal Challengers Bangalore"),("Rohit Sharma","Mumbai Indians"),
+               ("MS Dhoni","Chennai Super Kings"),("AB de Villiers","Royal Challengers Bangalore"),
+               ("David Warner","Sunrisers Hyderabad"),("Shikhar Dhawan","Delhi Capitals"),
+               ("KL Rahul","Punjab Kings"),("Suresh Raina","Chennai Super Kings"),
+               ("Hardik Pandya","Mumbai Indians"),("Andre Russell","Kolkata Knight Riders"),
+               ("Jos Buttler","Rajasthan Royals"),("Shubman Gill","Kolkata Knight Riders")]
+    BOWLERS = [("Lasith Malinga","Mumbai Indians"),("Jasprit Bumrah","Mumbai Indians"),
+               ("Dwayne Bravo","Chennai Super Kings"),("Yuzvendra Chahal","Royal Challengers Bangalore"),
+               ("Rashid Khan","Sunrisers Hyderabad"),("Amit Mishra","Delhi Capitals"),
+               ("Ravindra Jadeja","Chennai Super Kings"),("Sunil Narine","Kolkata Knight Riders"),
+               ("Kagiso Rabada","Delhi Capitals"),("Bhuvneshwar Kumar","Sunrisers Hyderabad")]
+    rows, match_id = [], 1
+    for season in range(2008, 2024):
+        for _ in range(60 if season < 2022 else 74):
+            t1, t2 = np.random.choice(TEAMS, 2, replace=False)
+            s1 = int(np.clip(np.random.normal(165,18), 80, 263))
+            s2 = int(np.clip(np.random.normal(158,18), 80, 263))
+            winner = t1 if s1 > s2 else t2
+            rows.append({"match_id":match_id,"season":season,
+                         "date":f"{season}-04-{np.random.randint(1,30):02d}",
+                         "venue":np.random.choice(VENUES),"team1":t1,"team2":t2,
+                         "toss_winner":np.random.choice([t1,t2]),
+                         "toss_decision":np.random.choice(["bat","field"],p=[0.55,0.45]),
+                         "team1_score":s1,"team2_score":s2,"winner":winner,
+                         "win_by_runs":abs(s1-s2) if winner==t1 else 0,
+                         "win_by_wickets":np.random.randint(1,10) if winner==t2 else 0})
+            match_id += 1
+    pd.DataFrame(rows).to_csv("matches.csv", index=False)
+    bat_rows = []
+    for season in range(2008, 2024):
+        for name, team in BATSMEN:
+            inn = np.random.randint(10,18)
+            runs = int(np.clip(np.random.normal(420,180), 50, 973))
+            bat_rows.append({"season":season,"player":name,"team":team,"innings":inn,
+                             "runs":runs,"average":round(runs/inn,1),
+                             "strike_rate":round(np.random.uniform(118,195),1),
+                             "fours":np.random.randint(30,80),"sixes":np.random.randint(10,50),
+                             "fifties":np.random.randint(1,6),"hundreds":1 if runs>700 else 0})
+    pd.DataFrame(bat_rows).to_csv("batting.csv", index=False)
+    bowl_rows = []
+    for season in range(2008, 2024):
+        for name, team in BOWLERS:
+            bowl_rows.append({"season":season,"player":name,"team":team,
+                              "matches":np.random.randint(10,17),"wickets":np.random.randint(8,28),
+                              "economy":round(np.random.uniform(6.5,9.8),2),
+                              "average":round(np.random.uniform(18,32),1),
+                              "best":f"{np.random.randint(2,6)}/{np.random.randint(10,45)}"})
+    pd.DataFrame(bowl_rows).to_csv("bowling.csv", index=False)
+
+if not os.path.exists("matches.csv"):
+    generate_data()
 
 st.set_page_config(page_title="IPL Analytics Dashboard", page_icon="🏏", layout="wide")
 
@@ -21,7 +84,6 @@ def load_data():
     batting = pd.read_csv("batting.csv")
     bowling = pd.read_csv("bowling.csv")
     return matches, batting, bowling
-
 
 matches, batting, bowling = load_data()
 
